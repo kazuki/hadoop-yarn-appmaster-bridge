@@ -1,0 +1,7 @@
+/dist
+/target
+/*.egg-info
+/.pyenv
+/.python-version
+
+__pycache__
