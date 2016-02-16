@@ -41,7 +41,7 @@ public class Client {
         boolean waitFlag = true;
         for (int i = 0; i < args.length; ++i) {
             if (args[i].equals("--no-wait")) {
-                waitFlag = true;
+                waitFlag = false;
             } else if (args[i].equals("--name")) {
                 appName = args[++i];
             } else if (args[i].equals("--queue")) {
